@@ -29,7 +29,7 @@ python3 covertele.py -s tony mark oh, hi mark!..
 ### API
 Here is a basic usage example:
 ~~~
-from covertele import TelegramChannel
+from covertele import TelegramBlockingAPI
 from cochannel import CovertChannel
 
 
