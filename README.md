@@ -17,13 +17,13 @@ You can install it with pip: `pip install telethon`
 ~~~
 python3 covertele.py [-s/-r] [your username] [other username] [message]
 ~~~
-Example to get message as user @mark from @tony you can call:
+Example to get message as user @mark from @tommy you can call:
 ~~~
-python3 covertele.py -r mark tony
+python3 covertele.py -r mark tommy
 ~~~
-And to send message "OH, HI MARK!..." from @tony to @mark do this after mark has started listening:
+And to send message "OH, HI MARK!..." from @tommy to @mark do this after mark has started listening:
 ~~~
-python3 covertele.py -s tony mark oh, hi mark!..
+python3 covertele.py -s tommy mark oh, hi mark!..
 ~~~
 
 ### API
