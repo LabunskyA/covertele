@@ -4,7 +4,7 @@ Tool and library to provide a simple way to exchange private text messages throu
 ## Installation
 - Clone this repo: `git clone https://github.com/LabunskyA/covertele` 
 - Acquire Telegram api_id and api_hash following [this manual](https://core.telegram.org/api/obtaining_api_id).
-- Edit covertele.py: set `api_id` and `api_hash` in the file header to your values.
+- Edit covertele.py: set `api_id` and `api_hash` in the [file header](https://github.com/LabunskyA/covertele/blob/master/covertele.py#L9) to your values.
 - Done
 
 ### Dependencies
