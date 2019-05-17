@@ -82,7 +82,7 @@ class CovertChannel:
         code_bit = 1
 
         nulls = 0
-        while nulls <= self.__tail_nuls:
+        while nulls < self.__tail_nuls:
             skipped = self.__sync_on(clock)
             clock += (skipped + 1) * self.__api_clock
 
