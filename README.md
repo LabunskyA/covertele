@@ -4,7 +4,7 @@ Tool and library to provide a simple way to exchange private text messages throu
 ## Installation
 - Clone this repo: `git clone https://github.com/LabunskyA/covertele` 
 - Acquire Telegram api_id and api_hash following [this manual](https://core.telegram.org/api/obtaining_api_id).
-- Edit covertele.py: set `api_id` and `api_hash` in the file header to your values.
+- Edit covertele.py: set `api_id` and `api_hash` in the [file header](https://github.com/LabunskyA/covertele/blob/master/covertele.py#L9) to your values.
 - Done
 
 ### Dependencies
@@ -13,6 +13,7 @@ You will also need [Telethon](https://github.com/LonamiWebs/Telethon) to be inst
 You can install it with pip: `pip install telethon`
 
 ## Usage
+If nothing is happening on connection (no output), try setting proxy in [covertele.py file](https://github.com/LabunskyA/covertele/blob/master/covertele.py#L12).
 ### Command-line tool
 ~~~
 python3 covertele.py [-s/-r] [your username] [other username] [message]
