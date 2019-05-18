@@ -15,21 +15,21 @@ You can install it with pip: `pip install telethon`
 ## Usage
 If nothing is happening on connection (no output), try setting proxy in [covertele.py file](https://github.com/LabunskyA/covertele/blob/master/covertele.py#L12).
 ### Command-line tool
-~~~
+~~~bash
 python3 covertele.py [-s/-r] [your username] [other username] [message]
 ~~~
 Example to get message as user @mark from @tommy you can call:
-~~~
+~~~bash
 python3 covertele.py -r mark tommy
 ~~~
 And to send message "OH, HI MARK!..." from @tommy to @mark do this after mark has started listening:
-~~~
+~~~bash
 python3 covertele.py -s tommy mark oh, hi mark!..
 ~~~
 
 ### API
 Here is a basic usage example:
-~~~
+~~~python
 from covertele import TelegramBlockingAPI
 from cochannel import CovertChannel
 
