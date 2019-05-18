@@ -55,5 +55,5 @@ for code in codes:
 channel.send_raw([19, 24, 24, 13])
 ~~~
 
-## Licence
+## License
 Simplified BSD, see [LICENSE](LICENSE) file.
